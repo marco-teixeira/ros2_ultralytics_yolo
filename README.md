@@ -2,9 +2,9 @@
 
 This package can be used to run the networks:
 
-- YoLovX-mon
+- YoLovX-seg
 
-- YoLovX-pos
+- YoLovX-pose
 
 - YoLovX
 
