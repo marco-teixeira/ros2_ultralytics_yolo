@@ -132,7 +132,8 @@ class ros2_ultralytics_yolo(rclpy.node.Node):
         # Publisher }
 
         # Modelo da YoLo a ser carregado
-        self.model = YOLO(str(package_share_directory)+"/"+str(yolo_model))
+        #self.model = YOLO(str(package_share_directory)+"/"+str(yolo_model))
+        self.model = YOLO(str(yolo_model))
         self.bridge = []
         self.bridge = CvBridge()
 
